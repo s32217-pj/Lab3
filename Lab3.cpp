@@ -4,7 +4,7 @@
 
 using namespace std;
 
-ios_base::fmtflags cout_base_flags(std::cout.flags());
+const ios_base::fmtflags cout_base_flags(std::cout.flags());
 
 void zad1()
 {
