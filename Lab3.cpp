@@ -111,7 +111,7 @@ void zad4()
 
     int width = row_count;
 
-    while (actual_row <= row_count-1)
+    while (actual_row < row_count+1)
     {
         int spaces = (width - actual_row);
         for (int x = 0; x < spaces; x++)
